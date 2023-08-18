@@ -36,3 +36,15 @@ dado = {
 }
 
 print(cadast(dado))
+
+def cadast(**dados):
+    return dados
+
+view = 'nome'
+sobreview = 'sarmento'
+old  = 33
+#print(cadast(view, sobreview, old)) #essa linha não funciona
+print(cadast(nome = 'Jozimar', sobrenome = 'Sarmento', idade = 33))
+
+import fat
+print(fat.fat(5))
