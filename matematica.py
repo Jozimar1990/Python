@@ -4,3 +4,7 @@ def fat(a):
         res *= i
     return res
 
+
+def fat2(a):
+    a *= a-1
+    return fat(a)
