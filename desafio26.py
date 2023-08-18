@@ -7,3 +7,32 @@ def quadrado(a, b = 2):
 
 print(quadrado(2,5))
 print(quadrado(2))
+
+def soma(*num):
+    resultado = 0
+    for n in num:
+        resultado  += n
+    return resultado
+
+print(soma(1, 2, 3, 4))
+
+def cadastro(*dados):
+    return dados
+
+
+nome = 'Jozimar'
+sobrenome = 'Sarmento'
+idade = 33
+
+print(cadastro(nome, sobrenome, idade))
+
+def cadast(*dados):
+    return dados
+
+dado = {
+    nome: "jozimar",
+    sobrenome: 'Sarmento',
+    idade: 33
+}
+
+print(cadast(dado))
