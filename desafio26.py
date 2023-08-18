@@ -48,3 +48,4 @@ print(cadast(nome = 'Jozimar', sobrenome = 'Sarmento', idade = 33))
 
 import matematica as f
 print(f.fat(5))
+print(f.fat2(5))
