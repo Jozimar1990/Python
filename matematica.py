@@ -4,7 +4,10 @@ def fat(a):
         res *= i
     return res
 
-
 def fat2(a):
-    a *= a-1
-    return fat(a)
+    b = a
+    def fatorar(b):
+        fator *= b-1
+        return fator if b == 1 else fatorar(b) 
+    
+    return fatorar(b)
