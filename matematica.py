@@ -6,8 +6,9 @@ def fat(a):
     for i in range(1,a+1):
         res *= i
     return res
-global fator
+#global fator
 fator = 1
+
 def fat2(a):
     b = a
     def fatorar(b):
