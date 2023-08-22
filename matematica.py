@@ -6,14 +6,6 @@ def fat(a):
     for i in range(1,a+1):
         res *= i
     return res
-#global fator
-fator = 1
 
 def fat2(a):
-    b = a
-    def fatorar(b):
-        global fator
-        fator *= b-1
-        return fator if b == 1 else fatorar(b) 
-    
-    return fatorar(a)
+    return 1 if a == 0 else a * fat2(a-1)
