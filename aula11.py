@@ -13,3 +13,6 @@ class computador:
 
 computador1 = computador('Asus', '16GB', "AMD")
 print(computador1.marca)
+
+computador1.exibirInformacoes()
+computador1.desligar()
