@@ -11,6 +11,8 @@ class computador:
     def desligar(self):
         print("Desligando")
 
+
+#Criando o objeto
 computador1 = computador('Asus', '16GB', "AMD")
 print(computador1.marca)
 
