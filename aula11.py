@@ -1,8 +1,9 @@
 #criar a classe
 class computador:
     def __init__ (self, marca, ram, placaDeVideo):
-    self.marca = marca
-    self.ram = ram
-    self.placaDeVideo = placaDeVideo
+        self.marca = marca
+        self.ram = ram
+        self.placaDeVideo = placaDeVideo
 
-computador('Asus', '16GB', "AMD")
+computador1 = computador('Asus', '16GB', "AMD")
+print(computador1.marca)
